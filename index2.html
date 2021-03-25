@@ -1,0 +1,1593 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Direktur 2</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <!-- Font Awesome -->
+ <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+ <!-- Ionicons -->
+ <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+ <!-- daterange picker -->
+ <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
+ <!-- iCheck for checkboxes and radio inputs -->
+ <link rel="stylesheet" href="plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+ <!-- Bootstrap Color Picker -->
+ <link rel="stylesheet" href="plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css">
+ <!-- Tempusdominus Bbootstrap 4 -->
+ <link rel="stylesheet" href="plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+ <!-- Select2 -->
+ <link rel="stylesheet" href="plugins/select2/css/select2.min.css">
+ <link rel="stylesheet" href="plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css">
+ <!-- Bootstrap4 Duallistbox -->
+ <link rel="stylesheet" href="plugins/bootstrap4-duallistbox/bootstrap-duallistbox.min.css">
+ <!-- Theme style -->
+ <link rel="stylesheet" href="dist/css/adminlte.min.css">
+ <!-- Google Font: Source Sans Pro -->
+ <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+
+  <link rel="stylesheet" href="plugins/style.css">
+</head>
+<body class="hold-transition sidebar-mini layout-fixed">
+<div class="wrapper">
+
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+      </li>
+    </ul>
+
+    <!-- Right navbar links -->
+    <ul class="navbar-nav ml-auto">
+     
+      <li class="nav-item">
+        <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
+          <i class="fas fa-th-large"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <!-- /.navbar -->
+
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <!-- Brand Logo -->
+    <a href="index3.html" class="brand-link">
+      <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+           style="opacity: .8">
+      <span class="brand-text font-weight-light">Direktur 2</span>
+    </a>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Sidebar user panel (optional) -->
+      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+        <div class="image">
+          <img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+        </div>
+        <div class="info">
+          <a href="#" class="d-block">AJI WAHYUGI</a>
+        </div>
+      </div>
+
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+          <li class="nav-item has-treeview menu-open">
+            <a href="index.html" class="nav-link active">
+              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <p>
+                Dashboard
+              </p>
+            </a>
+          </li>
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-users-cog"></i>
+              <p>
+                Sistem Admin
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fa fa-user nav-icon"></i>
+                  <p>Kelola Pengguna</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fa fa-lock nav-icon"></i>
+                  <p>Kelola Role</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fa fa-list-alt nav-icon"></i>
+                  <p>Kelola Menu</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fa fa-cog nav-icon"></i>
+                  <p>Pengaturan</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fas fa-hdd nav-icon"></i>
+                  <p>Backup Data</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fas fa-universal-access nav-icon"></i>
+                  <p>Akses Teller</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fa fa-database"></i>
+              <p>
+                Data Master
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fas fa-life-ring nav-icon"></i>
+                  <p>COA</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fa fa-cubes nav-icon"></i>
+                  <p>Produk</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fa fa-hourglass-start nav-icon"></i>
+                  <p>Kolektibilitas</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fa fa-briefcase nav-icon"></i>
+                  <p>Jaminanan</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fas fa-life-ring nav-icon"></i>
+                  <p>Distribusi Basil COA</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fas fa-money-check-alt nav-icon"></i>
+                  <p>Jenis Transaksi</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fas fa-life-ring nav-icon"></i>
+                  <p>COA Dashboard</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fa fa-id-card"></i>
+              <p>
+                Data Keanggotaan
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fas fa-users nav-icon"></i>
+                  <p>Kelompok</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fa fa-user nav-icon"></i>
+                  <p>Anggota</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fa fa-money-check-alt nav-icon"></i>
+                  <p>Rek Simpanan</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fa fa-inbox nav-icon"></i>
+                  <p>Rek Simpanan Berjangka</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fas fa-money-check-alt nav-icon"></i>
+                  <p>Rek Pembiayaan</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fa fa-suitcase"></i>
+              <p>
+                Transaksi Teller
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fa fa-hdd nav-icon"></i>
+                  <p>Simpanan</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fa fa-inbox nav-icon"></i>
+                  <p>Simpanan Berjangka</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fa fa-money-check nav-icon"></i>
+                  <p>Pembiayaan</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fa fa-globe"></i>
+              <p>
+                Transaksi Umum
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fa fa-recycle nav-icon"></i>
+                  <p>Kas Keluar/Masuk</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fa fa-inbox nav-icon"></i>
+                  <p>Selisih Kas</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fa fa-exchange-alt nav-icon"></i>
+                  <p>Transaksi Antar Kas</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fa fa-newspaper"></i>
+              <p>
+                Accounting
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fa fa-columns nav-icon"></i>
+                  <p>Masukan Jurnal</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fa fa-bookmark nav-icon"></i>
+                  <p>Jurnal Umum</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fa fa-gift nav-icon"></i>
+                  <p>Distribusi Profit</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fa fa-folder nav-icon"></i>
+                  <p>End of Year</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fa fa-exchange-alt"></i>
+              <p>
+                Verifikasi Pinjaman
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fa fa-id-card-alt nav-icon"></i>
+                  <p>Verifikasi Data dan EKYC</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fa fa-address-book nav-icon"></i>
+                  <p>Verifikasi Telepon</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fa fa-vote-yea nav-icon"></i>
+                  <p>Verifikasi FInal</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fa fa-exchange-alt"></i>
+              <p>
+                Verif Pinjaman Koleteral
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fa fa-id-card-alt nav-icon"></i>
+                  <p>Verifikasi Data dan EKYC</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fa fa-address-book nav-icon"></i>
+                  <p>Verifikasi Kunjungan</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fa fa-vote-yea nav-icon"></i>
+                  <p>Verifikasi Penilaian Koleteral</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fa fa-vote-yea nav-icon"></i>
+                  <p>Verifikasi Final</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fa fa-folder-open"></i>
+              <p>
+                Laporan
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fa fa-balance-scale nav-icon"></i>
+                  <p>Keuangan</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fa fa-users nav-icon"></i>
+                  <p>Anggota</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fa fa-money-bill nav-icon"></i>
+                  <p>NPF</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fa fa-hdd nav-icon"></i>
+                  <p>Simpanan</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fa fa-industry nav-icon"></i>
+                  <p>Simpanan Berjangka</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fa fa-handshake nav-icon"></i>
+                  <p>Pembiayaan</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fa fa-tasks nav-icon"></i>
+                  <p>Teller</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <!-- <h1 class="m-0 text-dark">Kelola Admin</h1> -->
+          </div><!-- /.col -->
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-right">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item active">Verifikasi Data EKYC</li>
+            </ol>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+
+      <!-- Main content -->
+      <section class="content">
+        <div class="container-fluid">
+        
+          <div class="row">
+            <div class="col-12">
+                <div class="card">
+                <div class="card-header">
+                 <div class="row">
+                  <div class="col-11">
+                    <h3 class="card-title text-bold">Verifikasi Data dan EKYC</h3>
+                   </div>
+                   <div class="col">
+                   </div>
+                 </div>
+                </div>
+                <div class="card">
+                  <div class="card-header d-flex p-0">
+                    <ul class="nav nav-pills ml-auto p-2">
+                      <li class="nav-item"><a class="nav-link active" href="#tab_1" data-toggle="tab"><i class="fa fa-user pr-2"></i>Direktur Utama</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#tab_2" data-toggle="tab">Komisaris Utama</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#tab_3" data-toggle="tab">EKYC Perusahaan</a></li>
+                    </ul>
+                  </div><!-- /.card-header -->
+                  <div class="card-body">
+                    <div class="tab-content">
+                      <div class="tab-pane active" id="tab_1">
+                        <div class="row">
+                            <div class="col-3">
+                              <!-- Profile Image -->
+                              <div class="card card-primary card-outline">
+                                <div class="card-body box-profile">
+                                  <div class="text-center">
+                                    <img class="profile-user-img img-fluid img-circle"
+                                        src="image/profile.png">
+                                  </div>
+                                  <h3 class="profile-username text-center pt-5">Foto Komisaris</h3>
+                                </div>
+                                <!-- /.card-body -->
+                              </div>
+                              <!-- /.card -->
+                              <!-- Profile Image -->
+                              <div class="card card-primary card-outline">
+                                <div class="card-body box-profile">
+                                  <div class="text-center">
+                                    <img class="profile-user-img img-fluid img-circle"
+                                        src="image/profile.png">
+                                  </div>
+                                  <h3 class="profile-username text-center pt-5">Foto KTP</h3>
+                                  
+                                </div>
+                                <!-- /.card-body -->
+                              </div>
+                              <!-- /.card -->
+                            </div>
+                            <div class="col-9">
+                              <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                  <li class="breadcrumb-item text-bold">Verifikasi Data EKYC dan Direktur Utama</li>
+                                </ol> 
+                              </nav>
+                              <table id="example1" class="table table-bordered table-striped text-center">
+                                <thead>
+                                <tr>
+                                  <th>Nama</th>
+                                  <td colspan="2">Yunia Saras</td>
+                                  <td colspan="2"><span class="bg-success p-1"><i class="fa fa-check pr-2"></i>Hasil Sama</span></td>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th>No KTP</th>
+                                    <td colspan="2">367122123212</td>
+                                    <td colspan="3"><span class="bg-success p-1"><i class="fa fa-check pr-2"></i>Hasil Sama</span></td>
+                                  </tr>
+                                  <tr>
+                                    <th>Tanggal Bergabung</th>
+                                    <td colspan="2">12/09/2021</td>
+                                    <td colspan="2"><span class="bg-success p-1"><i class="fa fa-check pr-2"></i>Hasil Sama</span></td>
+                                  </tr>
+                                  <tr>
+                                    <th>Alamat</th>
+                                    <td colspan="4"></td>
+                                    <tr>
+                                      <td></td>
+                                      <td>Provinsi</td>
+                                      <td>DKI Jakarta</td>
+                                      <td colspan="2"></td>
+                                    </tr>
+                                    <tr>
+                                      <td></td>
+                                      <td>Kabupaten</td>
+                                      <td>Jakarta Selatan</td>
+                                      <td colspan="2"></td>
+                                    </tr>
+                                    <tr>
+                                      <td></td>
+                                      <td>Kecataman</td>
+                                      <td>Kuningan</td>
+                                      <td colspan="2"></td>
+                                    </tr>
+                                    <tr>
+                                      <td></td>
+                                      <td>Kelurahan</td>
+                                      <td>Ragunan</td>
+                                      <td colspan="2"><span class="bg-success p-1"><i class="fa fa-check pr-2"></i>Hasil Sama</span></td>
+                                    </tr>
+                                  </tr>
+                                  <tr>
+                                    <th>Alamat Lengkap</th>
+                                    <td colspan="2">
+                                      Jl.Jendral Sudirman No.20
+                                    </td>
+                                    <td colspan="2"><span class="bg-success p-1"><i class="fa fa-check pr-2"></i>Hasil Sama</span></td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                              <button class="btn btn-success mb-3"><i class="fa fa-check pr-2"></i>Cek EKYC</button>
+                            </div>
+                          </div> 
+                          <div class="row">
+                            <div class="col-3">
+                              <!-- Profile Image -->
+                              <div class="card card-primary card-outline">
+                                <div class="card-body box-profile">
+                                  <div class="text-center">
+                                    <img class="profile-user-img img-fluid img-circle"
+                                        src="image/profile.png">
+                                  </div>
+                                  <h3 class="profile-username text-center pt-5">Foto Komisaris</h3>
+                                </div>
+                                <!-- /.card-body -->
+                              </div>
+                              <!-- /.card -->
+                              <!-- Profile Image -->
+                              <div class="card card-primary card-outline">
+                                <div class="card-body box-profile">
+                                  <div class="text-center">
+                                    <img class="profile-user-img img-fluid img-circle"
+                                        src="image/profile.png">
+                                  </div>
+                                  <h3 class="profile-username text-center pt-5">Foto KTP</h3>
+                                  
+                                </div>
+                                <!-- /.card-body -->
+                              </div>
+                              <!-- /.card -->
+                            </div>
+                            <div class="col-9">
+                              <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                  <li class="breadcrumb-item text-bold">Verifikasi Data EKYC dan Direktur</li>
+                                </ol> 
+                              </nav>
+                              <table id="example1" class="table table-bordered table-striped text-center">
+                                <thead>
+                                <tr>
+                                  <th>Nama</th>
+                                  <td colspan="2">Yunia Saras</td>
+                                  <td colspan="2"><span class="bg-success p-1"><i class="fa fa-check pr-2"></i>Hasil Sama</span></td>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th>No KTP</th>
+                                    <td colspan="2">367122123212</td>
+                                    <td colspan="3"><span class="bg-success p-1"><i class="fa fa-check pr-2"></i>Hasil Sama</span></td>
+                                  </tr>
+                                  <tr>
+                                    <th>Tanggal Bergabung</th>
+                                    <td colspan="2">12/09/2021</td>
+                                    <td colspan="2"><span class="bg-success p-1"><i class="fa fa-check pr-2"></i>Hasil Sama</span></td>
+                                  </tr>
+                                  <tr>
+                                    <th>Alamat</th>
+                                    <td colspan="4"></td>
+                                    <tr>
+                                      <td></td>
+                                      <td>Provinsi</td>
+                                      <td>DKI Jakarta</td>
+                                      <td colspan="2"></td>
+                                    </tr>
+                                    <tr>
+                                      <td></td>
+                                      <td>Kabupaten</td>
+                                      <td>Jakarta Selatan</td>
+                                      <td colspan="2"></td>
+                                    </tr>
+                                    <tr>
+                                      <td></td>
+                                      <td>Kecataman</td>
+                                      <td>Kuningan</td>
+                                      <td colspan="2"></td>
+                                    </tr>
+                                    <tr>
+                                      <td></td>
+                                      <td>Kelurahan</td>
+                                      <td>Ragunan</td>
+                                      <td colspan="2"><span class="bg-success p-1"><i class="fa fa-check pr-2"></i>Hasil Sama</span></td>
+                                    </tr>
+                                  </tr>
+                                  <tr>
+                                    <th>Alamat Lengkap</th>
+                                    <td colspan="2">
+                                      Jl.Jendral Sudirman No.20
+                                    </td>
+                                    <td colspan="2"><span class="bg-success p-1"><i class="fa fa-check pr-2"></i>Hasil Sama</span></td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                              <button class="btn btn-success mb-3"><i class="fa fa-check pr-2"></i>Cek EKYC</button>
+                            </div>
+                          </div>                        
+                          <div class="row">
+                            <div class="col-3">
+                              <!-- Profile Image -->
+                              <div class="card card-primary card-outline">
+                                <div class="card-body box-profile">
+                                  <div class="text-center">
+                                    <img class="profile-user-img img-fluid img-circle"
+                                        src="image/profile.png">
+                                  </div>
+                                  <h3 class="profile-username text-center pt-5">Foto Komisaris</h3>
+                                </div>
+                                <!-- /.card-body -->
+                              </div>
+                              <!-- /.card -->
+                              <!-- Profile Image -->
+                              <div class="card card-primary card-outline">
+                                <div class="card-body box-profile">
+                                  <div class="text-center">
+                                    <img class="profile-user-img img-fluid img-circle"
+                                        src="image/profile.png">
+                                  </div>
+                                  <h3 class="profile-username text-center pt-5">Foto KTP</h3>
+                                  
+                                </div>
+                                <!-- /.card-body -->
+                              </div>
+                              <!-- /.card -->
+                            </div>
+                            <div class="col-9">
+                              <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                  <li class="breadcrumb-item text-bold">Verifikasi Data EKYC dan Direktur</li>
+                                </ol> 
+                              </nav>
+                              <table id="example1" class="table table-bordered table-striped text-center">
+                                <thead>
+                                <tr>
+                                  <th>Nama</th>
+                                  <td colspan="2">Yunia Saras</td>
+                                  <td colspan="2"><span class="bg-success p-1"><i class="fa fa-check pr-2"></i>Hasil Sama</span></td>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th>No KTP</th>
+                                    <td colspan="2">367122123212</td>
+                                    <td colspan="3"><span class="bg-success p-1"><i class="fa fa-check pr-2"></i>Hasil Sama</span></td>
+                                  </tr>
+                                  <tr>
+                                    <th>Tanggal Bergabung</th>
+                                    <td colspan="2">12/09/2021</td>
+                                    <td colspan="2"><span class="bg-success p-1"><i class="fa fa-check pr-2"></i>Hasil Sama</span></td>
+                                  </tr>
+                                  <tr>
+                                    <th>Alamat</th>
+                                    <td colspan="4"></td>
+                                    <tr>
+                                      <td></td>
+                                      <td>Provinsi</td>
+                                      <td>DKI Jakarta</td>
+                                      <td colspan="2"></td>
+                                    </tr>
+                                    <tr>
+                                      <td></td>
+                                      <td>Kabupaten</td>
+                                      <td>Jakarta Selatan</td>
+                                      <td colspan="2"></td>
+                                    </tr>
+                                    <tr>
+                                      <td></td>
+                                      <td>Kecataman</td>
+                                      <td>Kuningan</td>
+                                      <td colspan="2"></td>
+                                    </tr>
+                                    <tr>
+                                      <td></td>
+                                      <td>Kelurahan</td>
+                                      <td>Ragunan</td>
+                                      <td colspan="2"><span class="bg-success p-1"><i class="fa fa-check pr-2"></i>Hasil Sama</span></td>
+                                    </tr>
+                                  </tr>
+                                  <tr>
+                                    <th>Alamat Lengkap</th>
+                                    <td colspan="2">
+                                      Jl.Jendral Sudirman No.20
+                                    </td>
+                                    <td colspan="2"><span class="bg-success p-1"><i class="fa fa-check pr-2"></i>Hasil Sama</span></td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                              <button class="btn btn-success mb-3"><i class="fa fa-check pr-2"></i>Cek EKYC</button>
+                            </div>
+                            
+                          </div>
+                          <div class="card-footer text-center">
+                            <button class="btn btn-danger mr-3"><i class="fa fa-window-close pr-2"></i>Tolak</button>
+                            <button class="btn btn-primary mr-3"><a href="#tab_2" data-toggle="tab" class="text-white">Lanjut</a><i class="fa fa-caret-square-right pl-2"></i></button>
+                          </div> 
+                      </div>                    
+                      <div class="tab-pane" id="tab_2">
+                        <!-- Proses verifikasi DATA PEKERJAAN -->
+                        <div class="row">
+                            <div class="col-3">
+                              <!-- Profile Image -->
+                              <div class="card card-primary card-outline">
+                                <div class="card-body box-profile">
+                                  <div class="text-center">
+                                    <img class="profile-user-img img-fluid img-circle"
+                                        src="image/profile.png">
+                                  </div>
+                                  <h3 class="profile-username text-center pt-5">Foto Komisaris</h3>
+                                </div>
+                                <!-- /.card-body -->
+                              </div>
+                              <!-- /.card -->
+                              <!-- Profile Image -->
+                              <div class="card card-primary card-outline">
+                                <div class="card-body box-profile">
+                                  <div class="text-center">
+                                    <img class="profile-user-img img-fluid img-circle"
+                                        src="image/profile.png">
+                                  </div>
+                                  <h3 class="profile-username text-center pt-5">Foto KTP</h3>
+                                  
+                                </div>
+                                <!-- /.card-body -->
+                              </div>
+                              <!-- /.card -->
+                            </div>
+                            <div class="col-9">
+                              <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                  <li class="breadcrumb-item text-bold">Verifikasi Data EKYC dan Komisaris Utama</li>
+                                </ol> 
+                              </nav>
+                              <table id="example1" class="table table-bordered table-striped text-center">
+                                <thead>
+                                <tr>
+                                  <th>Nama</th>
+                                  <td colspan="2">Yunia Saras</td>
+                                  <td colspan="2">
+                                    <span class="bg-success p-1"><i class="fa fa-check pr-2"></i>Hasil Sama</span>
+                                  </td>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th>No KTP</th>
+                                    <td colspan="2">367122123212</td>
+                                    <td colspan="3">
+                                      <span class="bg-success p-1"><i class="fa fa-check pr-2"></i>Hasil Sama</span>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <th>Tanggal Bergabung</th>
+                                    <td colspan="2">12/09/2021</td>
+                                    <td colspan="2">
+                                      <span class="bg-success p-1"><i class="fa fa-check pr-2"></i>Hasil Sama</span>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <th>Alamat</th>
+                                    <td colspan="4"></td>
+                                    <tr>
+                                      <td></td>
+                                      <td>Provinsi</td>
+                                      <td>DKI Jakarta</td>
+                                      <td colspan="2"></td>
+                                    </tr>
+                                    <tr>
+                                      <td></td>
+                                      <td>Kabupaten</td>
+                                      <td>Jakarta Selatan</td>
+                                      <td colspan="2"></td>
+                                    </tr>
+                                    <tr>
+                                      <td></td>
+                                      <td>Kecataman</td>
+                                      <td>Kuningan</td>
+                                      <td colspan="2"></td>
+                                    </tr>
+                                    <tr>
+                                      <td></td>
+                                      <td>Kelurahan</td>
+                                      <td>Ragunan</td>
+                                      <td colspan="2">
+                                        <span class="bg-success p-1"><i class="fa fa-check pr-2"></i>Hasil Sama</span>
+                                      </td>
+                                    </tr>
+                                  </tr>
+                                  <tr>
+                                    <th>Alamat Lengkap</th>
+                                    <td colspan="2">
+                                      Jl.Jendral Sudirman No.20
+                                    </td>
+                                    <td colspan="2">
+                                      <span class="bg-success p-1"><i class="fa fa-check pr-2"></i>Hasil Sama</span>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                              <button class="btn btn-success mb-3"><i class="fa fa-check pr-2"></i>Cek EKYC</button>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <!-- Profile Image -->
+                              <div class="card card-primary card-outline">
+                                <div class="card-body box-profile">
+                                  <div class="text-center">
+                                    <img class="profile-user-img img-fluid img-circle"
+                                        src="image/profile.png">
+                                  </div>
+                                  <h3 class="profile-username text-center pt-5">Foto Komisaris</h3>
+                                </div>
+                                <!-- /.card-body -->
+                              </div>
+                              <!-- /.card -->
+                              <!-- Profile Image -->
+                              <div class="card card-primary card-outline">
+                                <div class="card-body box-profile">
+                                  <div class="text-center">
+                                    <img class="profile-user-img img-fluid img-circle"
+                                        src="image/profile.png">
+                                  </div>
+                                  <h3 class="profile-username text-center pt-5">Foto KTP</h3>
+                                  
+                                </div>
+                                <!-- /.card-body -->
+                              </div>
+                              <!-- /.card -->
+                            </div>
+                            <div class="col-9">
+                              <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                  <li class="breadcrumb-item text-bold">Verifikasi Data EKYC dan Komisaris</li>
+                                </ol> 
+                              </nav>
+                              <table id="example1" class="table table-bordered table-striped text-center">
+                                <thead>
+                                <tr>
+                                  <th>Nama</th>
+                                  <td colspan="2">Yunia Saras</td>
+                                  <td colspan="2">
+                                    <span class="bg-success p-1"><i class="fa fa-check pr-2"></i>Hasil Sama</span>
+                                  </td>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th>No KTP</th>
+                                    <td colspan="2">367122123212</td>
+                                    <td colspan="3">
+                                      <span class="bg-success p-1"><i class="fa fa-check pr-2"></i>Hasil Sama</span>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <th>Tanggal Bergabung</th>
+                                    <td colspan="2">12/09/2021</td>
+                                    <td colspan="2">
+                                      <span class="bg-success p-1"><i class="fa fa-check pr-2"></i>Hasil Sama</span>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <th>Alamat</th>
+                                    <td colspan="4"></td>
+                                    <tr>
+                                      <td></td>
+                                      <td>Provinsi</td>
+                                      <td>DKI Jakarta</td>
+                                      <td colspan="2"></td>
+                                    </tr>
+                                    <tr>
+                                      <td></td>
+                                      <td>Kabupaten</td>
+                                      <td>Jakarta Selatan</td>
+                                      <td colspan="2"></td>
+                                    </tr>
+                                    <tr>
+                                      <td></td>
+                                      <td>Kecataman</td>
+                                      <td>Kuningan</td>
+                                      <td colspan="2"></td>
+                                    </tr>
+                                    <tr>
+                                      <td></td>
+                                      <td>Kelurahan</td>
+                                      <td>Ragunan</td>
+                                      <td colspan="2">
+                                        <span class="bg-success p-1"><i class="fa fa-check pr-2"></i>Hasil Sama</span>
+                                      </td>
+                                    </tr>
+                                  </tr>
+                                  <tr>
+                                    <th>Alamat Lengkap</th>
+                                    <td colspan="2">
+                                      Jl.Jendral Sudirman No.20
+                                    </td>
+                                    <td colspan="2">
+                                      <span class="bg-success p-1"><i class="fa fa-check pr-2"></i>Hasil Sama</span>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                              <button class="btn btn-success mb-3"><i class="fa fa-check pr-2"></i>Cek EKYC</button>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <!-- Profile Image -->
+                              <div class="card card-primary card-outline">
+                                <div class="card-body box-profile">
+                                  <div class="text-center">
+                                    <img class="profile-user-img img-fluid img-circle"
+                                        src="image/profile.png">
+                                  </div>
+                                  <h3 class="profile-username text-center pt-5">Foto Komisaris</h3>
+                                </div>
+                                <!-- /.card-body -->
+                              </div>
+                              <!-- /.card -->
+                              <!-- Profile Image -->
+                              <div class="card card-primary card-outline">
+                                <div class="card-body box-profile">
+                                  <div class="text-center">
+                                    <img class="profile-user-img img-fluid img-circle"
+                                        src="image/profile.png">
+                                  </div>
+                                  <h3 class="profile-username text-center pt-5">Foto KTP</h3>
+                                  
+                                </div>
+                                <!-- /.card-body -->
+                              </div>
+                              <!-- /.card -->
+                            </div>
+                            <div class="col-9">
+                              <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                  <li class="breadcrumb-item text-bold">Verifikasi Data EKYC dan Komisaris</li>
+                                </ol> 
+                              </nav>
+                              <table id="example1" class="table table-bordered table-striped text-center">
+                                <thead>
+                                <tr>
+                                  <th>Nama</th>
+                                  <td colspan="2">Yunia Saras</td>
+                                  <td colspan="2">
+                                    <span class="bg-success p-1"><i class="fa fa-check pr-2"></i>Hasil Sama</span>
+                                  </td>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th>No KTP</th>
+                                    <td colspan="2">367122123212</td>
+                                    <td colspan="3">
+                                      <span class="bg-success p-1"><i class="fa fa-check pr-2"></i>Hasil Sama</span>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <th>Tanggal Bergabung</th>
+                                    <td colspan="2">12/09/2021</td>
+                                    <td colspan="2">
+                                      <span class="bg-success p-1"><i class="fa fa-check pr-2"></i>Hasil Sama</span>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <th>Alamat</th>
+                                    <td colspan="4"></td>
+                                    <tr>
+                                      <td></td>
+                                      <td>Provinsi</td>
+                                      <td>DKI Jakarta</td>
+                                      <td colspan="2"></td>
+                                    </tr>
+                                    <tr>
+                                      <td></td>
+                                      <td>Kabupaten</td>
+                                      <td>Jakarta Selatan</td>
+                                      <td colspan="2"></td>
+                                    </tr>
+                                    <tr>
+                                      <td></td>
+                                      <td>Kecataman</td>
+                                      <td>Kuningan</td>
+                                      <td colspan="2"></td>
+                                    </tr>
+                                    <tr>
+                                      <td></td>
+                                      <td>Kelurahan</td>
+                                      <td>Ragunan</td>
+                                      <td colspan="2">
+                                        <span class="bg-success p-1"><i class="fa fa-check pr-2"></i>Hasil Sama</span>
+                                      </td>
+                                    </tr>
+                                  </tr>
+                                  <tr>
+                                    <th>Alamat Lengkap</th>
+                                    <td colspan="2">
+                                      Jl.Jendral Sudirman No.20
+                                    </td>
+                                    <td colspan="2">
+                                      <span class="bg-success p-1"><i class="fa fa-check pr-2"></i>Hasil Sama</span>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                              <button class="btn btn-success mb-3"><i class="fa fa-check pr-2"></i>Cek EKYC</button>
+                            </div>
+                          </div>
+                          <div class="card-footer text-center">
+                            <button class="btn btn-danger mr-3"><i class="fa fa-window-close pr-2"></i>Tolak</button>
+                            <button class="btn btn-primary mr-3">Lanjut<i class="fa fa-caret-square-right pl-2"></i></button>
+                          </div> 
+                        <!-- Akhir verifikasi DATA PEKERJAAN -->
+                      </div>                    
+                      <div class="tab-pane" id="tab_3">
+                        <!-- Proses verifikasi DATA PEKERJAAN -->
+                        <div class="row">
+                            <div class="col">
+                              <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                  <li class="breadcrumb-item text-bold">EKYC Perusahaan</li>
+                                </ol>
+                              </nav>
+                            </div>
+                          </div>
+                          <div class="row">
+                              <div class="col-12">
+                                <table id="example1" class="table table-bordered table-striped">
+                                  <thead>
+                                    <tr>
+                                      <th>Akta Pendirian</th>
+                                      <td colspan="4"></td>
+                                      <tr>
+                                        <td></td>
+                                        <td>No Akta</td>
+                                        <td>8932178372</td>
+                                        <td colspan="2" class="text-center"><span class="bg-success p-1"><i class="fa fa-check pr-2"></i>Lolos</span></td>
+                                      </tr>
+                                      <tr>
+                                        <td></td>
+                                        <td>Tangal Akta</td>
+                                        <td>09/09/2021</td>
+                                        <td colspan="2" class="text-center">
+                                          <button class="btn btn-danger mr-2">
+                                            <i class="fa fa-window-close pr-2"></i>
+                                            Data Beda
+                                          </button>
+                                          <button class="btn btn-success">
+                                            <i class="fa fa-check pr-2"></i>
+                                            Data Sama
+                                          </button>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td></td>
+                                        <td>No Pengesahan AHU</td>
+                                        <td>989SAK0ASA</td>
+                                        <td colspan="2" class="text-center">
+                                          <button class="btn btn-danger mr-2">
+                                            <i class="fa fa-window-close pr-2"></i>
+                                            Data Beda
+                                          </button>
+                                          <button class="btn btn-success">
+                                            <i class="fa fa-check pr-2"></i>
+                                            Data Sama
+                                          </button>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td></td>
+                                        <td>Lihat Akta Pendirian</td>
+                                        <td><a href="">Lihat Akta Pendirian</a></td>
+                                        <td colspan="2" class="text-center">
+                                          <button class="btn btn-danger mr-2">
+                                            <i class="fa fa-window-close pr-2"></i>
+                                            Data Beda
+                                          </button>
+                                          <button class="btn btn-success">
+                                            <i class="fa fa-check pr-2"></i>
+                                            Data Sama
+                                          </button>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td></td>
+                                        <td>Lihat Pengesahan AHU</td>
+                                        <td><a href="">Lihat Pengesahan</a></td>
+                                        <td colspan="2" class="text-center">
+                                          <button class="btn btn-danger mr-2">
+                                            <i class="fa fa-window-close pr-2"></i>
+                                            Data Beda
+                                          </button>
+                                          <button class="btn btn-success">
+                                            <i class="fa fa-check pr-2"></i>
+                                            Data Sama
+                                          </button>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td></td>
+                                        <td>Masukan Link Pengesahan AHU</td>
+                                        <td><a href="">Link Pengesahan AHU</a></td>
+                                        <td colspan="2" class="text-center">
+                                          <input type="text" class="form-control" id="exampleInputEmail1">
+                                        </td>
+                                      </tr>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <th>Akta Perubahan</th>
+                                      <td colspan="4"></td>
+                                      <tr>
+                                        <td></td>
+                                        <td>No Akta</td>
+                                        <td>8932178372</td>
+                                        <td colspan="2" class="text-center">
+                                          <button class="btn btn-danger mr-2">
+                                            <i class="fa fa-window-close pr-2"></i>
+                                            Data Beda
+                                          </button>
+                                          <button class="btn btn-success">
+                                            <i class="fa fa-check pr-2"></i>
+                                            Data Sama
+                                          </button>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td></td>
+                                        <td>Tangal Akta</td>
+                                        <td>09/09/2021</td>
+                                        <td colspan="2" class="text-center">
+                                          <button class="btn btn-danger mr-2">
+                                            <i class="fa fa-window-close pr-2"></i>
+                                            Data Beda
+                                          </button>
+                                          <button class="btn btn-success">
+                                            <i class="fa fa-check pr-2"></i>
+                                            Data Sama
+                                          </button>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td></td>
+                                        <td>No Pengesahan AHU</td>
+                                        <td>989SAK0ASA</td>
+                                        <td colspan="2" class="text-center">
+                                          <button class="btn btn-danger mr-2">
+                                            <i class="fa fa-window-close pr-2"></i>
+                                            Data Beda
+                                          </button>
+                                          <button class="btn btn-success">
+                                            <i class="fa fa-check pr-2"></i>
+                                            Data Sama
+                                          </button>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td></td>
+                                        <td>Lihat Akta Pendirian</td>
+                                        <td>-</td>
+                                        <td colspan="2" class="text-center">
+                                          <button class="btn btn-danger mr-2">
+                                            <i class="fa fa-window-close pr-2"></i>
+                                            Data Beda
+                                          </button>
+                                          <button class="btn btn-success">
+                                            <i class="fa fa-check pr-2"></i>
+                                            Data Sama
+                                          </button>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td></td>
+                                        <td>Lihat Pengesahan AHU</td>
+                                        <td>-</td>
+                                        <td colspan="2" class="text-center">
+                                          <button class="btn btn-danger mr-2">
+                                            <i class="fa fa-window-close pr-2"></i>
+                                            Data Beda
+                                          </button>
+                                          <button class="btn btn-success">
+                                            <i class="fa fa-check pr-2"></i>
+                                            Data Sama
+                                          </button>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td></td>
+                                        <td>Masukan Link Pengesahan AHU</td>
+                                        <td>-</td>
+                                        <td colspan="2" class="text-center">
+                                          <input type="text" class="form-control" id="exampleInputEmail1">
+                                        </td>
+                                      </tr>
+                                    </tr>
+                                    <tr>
+                                      <th>Detail Perusahaan</th>
+                                      <td colspan="2"></td>
+                                      <td class="text-center">
+                                        <span class="bg-success p-1"><i class="fa fa-check pr-2"></i>Lolos</span>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <th class="text-center">Alamat</th>
+                                      <td colspan="4"></td>
+                                      <tr>
+                                        <td></td>
+                                        <td>Provinsi</td>
+                                        <td>DKI Jakarta</td>
+                                        <td colspan="2"></td>
+                                      </tr>
+                                      <tr>
+                                        <td></td>
+                                        <td>Kabupaten</td>
+                                        <td>Jakarta Selatan</td>
+                                        <td colspan="2"></td>
+                                      </tr>
+                                      <tr>
+                                        <td></td>
+                                        <td>Kecataman</td>
+                                        <td>Kuningan</td>
+                                        <td colspan="2"></td>
+                                      </tr>
+                                      <tr>
+                                        <td></td>
+                                        <td>Kelurahan</td>
+                                        <td>Ragunan</td>
+                                        <td colspan="2" class="text-center">
+                                          <button class="btn btn-danger mr-2">
+                                            <i class="fa fa-window-close pr-2"></i>
+                                            Data Beda
+                                          </button>
+                                          <button class="btn btn-success">
+                                            <i class="fa fa-check pr-2"></i>
+                                            Data Sama
+                                          </button>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <th class="text-center">Alamat Detail</th>
+                                        <td colspan="2">
+                                          Jl. Jendral Sudirman No.2
+                                        </td>
+                                        <td class="text-center">
+                                          <button class="btn btn-danger mr-2">
+                                            <i class="fa fa-window-close pr-2"></i>
+                                            Data Beda
+                                          </button>
+                                          <button class="btn btn-success">
+                                            <i class="fa fa-check pr-2"></i>
+                                            Data Sama
+                                          </button>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <th class="text-center">Nomor Telepon</th>
+                                        <td colspan="2">
+                                          021-3232-1213
+                                        </td>
+                                        <td class="text-center">
+                                          <button class="btn btn-danger mr-2">
+                                            <i class="fa fa-window-close pr-2"></i>
+                                            Data Beda
+                                          </button>
+                                          <button class="btn btn-success">
+                                            <i class="fa fa-check pr-2"></i>
+                                            Data Sama
+                                          </button>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <th class="text-center">Website Perusahaan</th>
+                                        <td colspan="2">
+                                          <a href="">wwww.mnckapital.co.id</a>
+                                        </td>
+                                        <td class="text-center">
+                                          <button class="btn btn-danger mr-2">
+                                            <i class="fa fa-window-close pr-2"></i>
+                                            Data Beda
+                                          </button>
+                                          <button class="btn btn-success">
+                                            <i class="fa fa-check pr-2"></i>
+                                            Data Sama
+                                          </button>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <th>Laporan Keuangan</th>
+                                        <td><a href="">Klik to Download</a></td>
+                                        <td colspan="4"></td>
+                                        <tr>
+                                          <td></td>
+                                          <td>Kewajaran Nilai Liability</td>
+                                          <td></td>
+                                          <td colspan="2" class="text-center">
+                                            <button class="btn btn-danger mr-2">
+                                              <i class="fa fa-window-close pr-2"></i>
+                                              Data Beda
+                                            </button>
+                                            <button class="btn btn-success">
+                                              <i class="fa fa-check pr-2"></i>
+                                              Data Sama
+                                            </button>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td></td>
+                                          <td>Kewajaran Ekuitas</td>
+                                          <td></td>
+                                          <td colspan="2" class="text-center">
+                                            <button class="btn btn-danger mr-2">
+                                            <i class="fa fa-window-close pr-2"></i>
+                                            Data Beda
+                                          </button>
+                                          <button class="btn btn-success">
+                                            <i class="fa fa-check pr-2"></i>
+                                            Data Sama
+                                          </button>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td></td>
+                                          <td>Kewajaran Asset</td>
+                                          <td></td>
+                                          <td colspan="2" class="text-center">
+                                            <button class="btn btn-danger mr-2">
+                                            <i class="fa fa-window-close pr-2"></i>
+                                            Data Beda
+                                          </button>
+                                          <button class="btn btn-success">
+                                            <i class="fa fa-check pr-2"></i>
+                                            Data Sama
+                                          </button>
+                                          </td>
+                                        </tr>
+                                      </tr>
+                                      <tr>
+                                        <th>Rekening Modal</th>
+                                        <td></td>
+                                        <td colspan="4"></td>
+                                        <tr>
+                                          <td></td>
+                                          <td>Transaksi Peminjaman Modal</td>
+                                          <td></td>
+                                          <td colspan="2" class="text-center">
+                                              <button class="btn btn-danger mr-2">
+                                            <i class="fa fa-window-close pr-2"></i>
+                                            Data Beda
+                                          </button>
+                                          <button class="btn btn-success">
+                                            <i class="fa fa-check pr-2"></i>
+                                            Data Sama
+                                          </button>
+                                          </td>
+                                        </tr>
+                                      </tr>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                                <div class="card-footer text-center">
+                                  
+                                <button class="btn btn-danger">
+                                  <i class="fa fa-window-close pr-2"></i>
+                                  Tolak
+                                </button>
+                      
+                                <button class="btn btn-primary">
+                                  <i class="fa fa-check pr-2"></i>
+                                  Setuju
+                                </button>
+                                
+                                </div>
+                              </div>
+                          </div>  
+                        <!-- Akhir verifikasi DATA PEKERJAAN -->
+                      </div>                                    
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        </div>
+      </section>
+      <!-- /.content -->
+    
+  </div>
+  <!-- /.content-wrapper -->
+  <footer class="main-footer">
+    <strong>Copyright &copy; 2014-2019 <a href="http://adminlte.io">AdminLTE.io</a>.</strong>
+    All rights reserved.
+    <div class="float-right d-none d-sm-inline-block">
+      <b>Version</b> 3.0.5
+    </div>
+  </footer>
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  <!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery -->
+
+<!-- jQuery -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- Select2 -->
+<script src="plugins/select2/js/select2.full.min.js"></script>
+<!-- Bootstrap4 Duallistbox -->
+<script src="plugins/bootstrap4-duallistbox/jquery.bootstrap-duallistbox.min.js"></script>
+<!-- InputMask -->
+<script src="plugins/moment/moment.min.js"></script>
+<script src="plugins/inputmask/min/jquery.inputmask.bundle.min.js"></script>
+<!-- date-range-picker -->
+<script src="plugins/daterangepicker/daterangepicker.js"></script>
+<!-- bootstrap color picker -->
+<script src="plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.min.js"></script>
+<!-- Tempusdominus Bootstrap 4 -->
+<script src="plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+<!-- Bootstrap Switch -->
+<script src="plugins/bootstrap-switch/js/bootstrap-switch.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="dist/js/demo.js"></script>
+<!-- Page script -->
+<script>
+  $(function () {
+    //Initialize Select2 Elements
+    $('.select2').select2()
+
+    //Initialize Select2 Elements
+    $('.select2bs4').select2({
+      theme: 'bootstrap4'
+    })
+
+    //Datemask dd/mm/yyyy
+    $('#datemask').inputmask('dd/mm/yyyy', { 'placeholder': 'dd/mm/yyyy' })
+    //Datemask2 mm/dd/yyyy
+    $('#datemask2').inputmask('mm/dd/yyyy', { 'placeholder': 'mm/dd/yyyy' })
+    //Money Euro
+    $('[data-mask]').inputmask()
+
+    //Date range picker
+    $('#reservationdate').datetimepicker({
+        format: 'L'
+    });
+    //Date range picker
+    $('#reservation').daterangepicker()
+    //Date range picker with time picker
+    $('#reservationtime').daterangepicker({
+      timePicker: true,
+      timePickerIncrement: 30,
+      locale: {
+        format: 'MM/DD/YYYY hh:mm A'
+      }
+    })
+    //Date range as a button
+    $('#daterange-btn').daterangepicker(
+      {
+        ranges   : {
+          'Today'       : [moment(), moment()],
+          'Yesterday'   : [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
+          'Last 7 Days' : [moment().subtract(6, 'days'), moment()],
+          'Last 30 Days': [moment().subtract(29, 'days'), moment()],
+          'This Month'  : [moment().startOf('month'), moment().endOf('month')],
+          'Last Month'  : [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
+        },
+        startDate: moment().subtract(29, 'days'),
+        endDate  : moment()
+      },
+      function (start, end) {
+        $('#reportrange span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'))
+      }
+    )
+
+    //Timepicker
+    $('#timepicker').datetimepicker({
+      format: 'LT'
+    })
+    
+    //Bootstrap Duallistbox
+    $('.duallistbox').bootstrapDualListbox()
+
+    //Colorpicker
+    $('.my-colorpicker1').colorpicker()
+    //color picker with addon
+    $('.my-colorpicker2').colorpicker()
+
+    $('.my-colorpicker2').on('colorpickerChange', function(event) {
+      $('.my-colorpicker2 .fa-square').css('color', event.color.toString());
+    });
+
+    $("input[data-bootstrap-switch]").each(function(){
+      $(this).bootstrapSwitch('state', $(this).prop('checked'));
+    });
+
+  })
+</script>
+
+</body>
+</html>
